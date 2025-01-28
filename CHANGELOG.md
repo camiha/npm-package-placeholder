@@ -1,3 +1,9 @@
+## [2.2.0](https://github.com/camiha/npm-package-placeholder/compare/v2.1.0...v2.2.0) (2025-01-28)
+
+### Features
+
+* **docs:** add readme ([4b9b61e](https://github.com/camiha/npm-package-placeholder/commit/4b9b61e9064cc3f768e5fc4a218346e718b41c7f))
+
 ## [2.1.0](https://github.com/camiha/npm-package-placeholder/compare/v2.0.0...v2.1.0) (2025-01-28)
 
 ### Features
