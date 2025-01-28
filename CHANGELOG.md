@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/camiha/npm-package-placeholder/compare/v1.0.0...v1.1.0) (2025-01-28)
+
+### Features
+
+* update workflow ([eb08391](https://github.com/camiha/npm-package-placeholder/commit/eb08391d08b933db5313a241dc32c5d8794f0ca0))
+
 ## 1.0.0 (2025-01-28)
 
 ### Features
