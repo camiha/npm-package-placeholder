@@ -1,0 +1,42 @@
+{
+  "name": "@camiha/npm-package-placeholder",
+  "version": "1.0.0",
+  "main": "dist/cjs/index.js",
+  "module": "dist/mjs/index.js",
+  "types": "dist/mjs/index.d.ts",
+  "scripts": {
+    "test": "vitest run",
+    "build": "npm run build:cjs && npm run build:mjs",
+    "build:mjs": "tsc --project tsconfig.mjs.json && cp res/package.mjs.json dist/mjs/package.json",
+    "build:cjs": "tsc --project tsconfig.cjs.json && cp res/package.cjs.json dist/cjs/package.json",
+    "release": "semantic-release"
+  },
+  "exports": {
+    "import": "./dist/mjs/index.js",
+    "require": "./dist/cjs/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/camiha/npm-package-placeholder"
+  },
+  "keywords": [],
+  "author": "camiha",
+  "license": "ISC",
+  "description": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@types/node": "^22.12.0",
+    "conventional-changelog-conventionalcommits": "^8.0.0",
+    "husky": "^9.1.7",
+    "semantic-release": "^24.2.1",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.4"
+  }
+}
