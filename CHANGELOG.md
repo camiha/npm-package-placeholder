@@ -1,3 +1,9 @@
+## [1.2.0](https://github.com/camiha/npm-package-placeholder/compare/v1.1.0...v1.2.0) (2025-01-28)
+
+### Features
+
+* add hello ([a0130a2](https://github.com/camiha/npm-package-placeholder/commit/a0130a2fa3cf38697ee596e764fa686314ccb7ed))
+
 ## [1.1.0](https://github.com/camiha/npm-package-placeholder/compare/v1.0.0...v1.1.0) (2025-01-28)
 
 ### Features
