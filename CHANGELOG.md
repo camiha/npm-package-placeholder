@@ -1,3 +1,13 @@
+## [2.0.0](https://github.com/camiha/npm-package-placeholder/compare/v1.2.0...v2.0.0) (2025-01-28)
+
+### ⚠ BREAKING CHANGES
+
+* remove unused function
+
+### Features
+
+* remove unused function ([97848d8](https://github.com/camiha/npm-package-placeholder/commit/97848d816599d4b240a45a1f2e7470fc539d27c3))
+
 ## [1.2.0](https://github.com/camiha/npm-package-placeholder/compare/v1.1.0...v1.2.0) (2025-01-28)
 
 ### Features
