@@ -5,11 +5,7 @@ export default defineConfig({
 		globals: true,
 		coverage: {
 			provider: "v8",
-			exclude: [
-				"dist/**",
-				"vitest.config.ts",
-				"example/**",
-			],
+			include: ["src/**/*.ts"],
 			reporter: ['text', 'json-summary', 'json'],
 			reportOnFailure: true,
 		},
