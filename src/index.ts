@@ -3,5 +3,5 @@ export const echo = (message: string): string => {
 }
 
 export const hello = (): string => {
-  return 'Hello, World!';
+  return 'Hello, World';
 }
