@@ -1,3 +1,14 @@
+## [2.3.0](https://github.com/camiha/npm-package-placeholder/compare/v2.2.0...v2.3.0) (2025-01-28)
+
+### Features
+
+* **docs:** add symbol ([38d2818](https://github.com/camiha/npm-package-placeholder/commit/38d2818d807547cdb6c877b9cbe84975983a46fe))
+* update workflow (test) ([89f48e7](https://github.com/camiha/npm-package-placeholder/commit/89f48e7f07e2f6a3baaba4bf0e684c7597c71ca3))
+
+### Bug Fixes
+
+* **test:** update test ([fdda023](https://github.com/camiha/npm-package-placeholder/commit/fdda0236c009e5baa24f627a3ceebf4d0cf2759c))
+
 ## [2.2.0](https://github.com/camiha/npm-package-placeholder/compare/v2.1.0...v2.2.0) (2025-01-28)
 
 ### Features
