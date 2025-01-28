@@ -1,3 +1,13 @@
+## [2.1.0](https://github.com/camiha/npm-package-placeholder/compare/v2.0.0...v2.1.0) (2025-01-28)
+
+### Features
+
+* add hello function ([394f920](https://github.com/camiha/npm-package-placeholder/commit/394f920bc9f4c28e34fa7c62cbad6ed5d8295f7b))
+
+### Bug Fixes
+
+* remove unexpected symbol ([745bae2](https://github.com/camiha/npm-package-placeholder/commit/745bae2d6bbc39588e0b37e4ae347bae37229072))
+
 ## [2.0.0](https://github.com/camiha/npm-package-placeholder/compare/v1.2.0...v2.0.0) (2025-01-28)
 
 ### ⚠ BREAKING CHANGES
