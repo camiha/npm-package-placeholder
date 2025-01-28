@@ -1,21 +1,16 @@
-name: Release
-
-on:
-  push:
-    branches:
-      - main
+name: CI
+on: push
 
 permissions:
-  contents: write
+  pull-requests: write
 
 jobs:
-  release:
+  ci:
+    name: CI
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup node.js
         uses: actions/setup-node@v4
@@ -26,8 +21,9 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Release
-        run: npm run release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Test
+        run: npm run coverage
+
+      - name: Report coverage
+        if: always()
+        uses: davelosert/vitest-coverage-report-action@v2

@@ -6,11 +6,19 @@
   "types": "dist/mjs/index.d.ts",
   "scripts": {
     "test": "vitest run",
+    "test:watch": "vitest run --watch",
+    "coverage": "vitest run --coverage",
     "build": "npm run build:cjs && npm run build:mjs",
     "build:mjs": "tsc --project tsconfig.mjs.json && cp res/package.mjs.json dist/mjs/package.json",
     "build:cjs": "tsc --project tsconfig.cjs.json && cp res/package.cjs.json dist/cjs/package.json",
     "release": "semantic-release"
   },
+  "files": [
+    "dist",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
   "exports": {
     "import": "./dist/mjs/index.js",
     "require": "./dist/cjs/index.js"
@@ -33,6 +41,7 @@
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@types/node": "^22.12.0",
+    "@vitest/coverage-v8": "^3.0.4",
     "conventional-changelog-conventionalcommits": "^8.0.0",
     "husky": "^9.1.7",
     "semantic-release": "^24.2.1",
